@@ -19,5 +19,19 @@
   		<artifactId>jetty-rewrite</artifactId>
   		<version>8.1.2.v20120308</version>
   	</dependency>
+  	<dependency>
+  		<groupId>java.bridge</groupId>
+  		<artifactId>php-servlet</artifactId>
+  		<systemPath>${basedir}/lib/php-servlet.jar</systemPath>
+  		<scope>system</scope>
+  		<version>6.2.1</version>
+  	</dependency>
+  	  	<dependency>
+  		<groupId>java.bridge</groupId>
+  		<artifactId>java-bridge</artifactId>
+  		<systemPath>${basedir}/lib/JavaBridge.jar</systemPath>
+  		<scope>system</scope>
+  		<version>6.2.1</version>
+  	</dependency>
   </dependencies>
 </project>
